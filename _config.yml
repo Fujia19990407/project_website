@@ -17,6 +17,9 @@
 # Build settings
 markdown: kramdown
 
+# _config.yml
+baseurl: "/project_website" # 你的baseurl路径
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

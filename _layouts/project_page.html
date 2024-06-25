@@ -62,6 +62,22 @@
             </span>
           </div>
           {% endif %}
+          
+          {% if page.notes %}
+          <div class="is-size-5 publication-notes">
+            <span class="notes-block">
+              {{ page.notes }}
+            </span>
+          </div>
+          {% endif %}
+
+          {% if page.contact %}
+          <div class="is-size-5 publication-contact">
+            <span class="contact-block">
+              {{ page.contact }}
+            </span>
+          </div>
+          {% endif %}
 
           <div class="column has-text-centered">
             <div class="publication-links">
