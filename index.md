@@ -63,7 +63,8 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 3. The efficacy of our approach is validated across several scenarios using public datasets.
 
 
-<img src="/static/image/Hierarchical.png" alt="Hierarchical UCB" style="width: 60%; display: block; margin-left: auto; margin-right: auto;">
+<img src= "{{ site.baseurl }}/static/image/Hierarchical.png" alt="Hierarchical UCB" style="width: 60%; display: block; margin-left: auto; margin-right: auto;">
+
 
 *Figure 1: An example of two-level hierarchical MAB.*
 
@@ -74,15 +75,15 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 *Figure 2: Grid search results for ASQA with GPT-4. Error bars represent the standard deviations of accuracy and reward values across all batches.*
 
 
-
 ## Main Results 
 
-<img src="/static/image/ASQA_gpt4_2_param_alpha_1-NQ_gpt4_2_param_alpha_1_topk_3_interval_100.png" alt="Main Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
+<img src= "{{ site.baseurl }}/static/image/ASQA_gpt4_2_param_alpha_1-NQ_gpt4_2_param_alpha_1_topk_3_interval_100.png"
+ alt="Main Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
 
 *Figure 3: Evolution of Recall@3 in the optimization of $(\mathcal{K}, \mathcal{C})$ for the GPT-4 case.*
 
 
-<img src="/static/image/ASQA_gpt4_3_param_alpha_1-NQ_gpt4_3_param_alpha_1_topk_5_interval_100.png" alt="Main Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
+<img src="{{ site.baseurl }}/static/image/ASQA_gpt4_3_param_alpha_1-NQ_gpt4_3_param_alpha_1_topk_5_interval_100.png" alt="Main Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
 
 *Figure 4: Evolution of Recall@5 in the optimization of $(\mathcal{K}, \mathcal{C}, \mathcal{E})$ for the GPT-4 case.*
 
