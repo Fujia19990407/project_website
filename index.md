@@ -3,23 +3,40 @@ layout: project_page
 permalink: /
 
 title: "AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation"
+# authors: |
+#     Jia Fu<sup>1, 2, 3</sup>, Xiaoting Qin<sup>1</sup>, Fangkai Yang<sup>1</sup>, Lu Wang<sup>1</sup>, Jue Zhang<sup>1</sup>, Qingwei Lin<sup>1</sup>, Yubo Chen<sup>2, 3</sup>, Dongmei Zhang<sup>1</sup>, Saravan Rajmohan<sup>1</sup>, Qi Zhang<sup>1</sup>
+# affiliations: |
+#     <sup>1</sup> Microsoft,
+#     <sup>2</sup> Institute of Automation, Chinese Academy of Sciences,
+#     <sup>3</sup> School of Artificial Intelligence, University of Chinese Academy of Sciences
+
 authors: |
-    Jia Fu<sup>1, 2, 3</sup>, Xiaoting Qin<sup>1</sup>, Fangkai Yang<sup>1</sup>, Lu Wang<sup>1</sup>, Jue Zhang<sup>1</sup>, Qingwei Lin<sup>1</sup>, Yubo Chen<sup>2, 3</sup>, Dongmei Zhang<sup>1</sup>, Saravan Rajmohan<sup>1</sup>, Qi Zhang<sup>1</sup>
+    Jia Fu<sup>1, 2, 3</sup>\*, Xiaoting Qin<sup>3</sup>, Fangkai Yang<sup>3</sup>, Lu Wang<sup>3</sup>, Jue Zhang<sup>3</sup>\**, Qingwei Lin<sup>3</sup>, **Yubo Chen<sup>1, 2</sup>, Dongmei Zhang<sup>3</sup>, Saravan Rajmohan<sup>3</sup>, Qi Zhang<sup>3</sup>**
+
 affiliations: |
-    <sup>1</sup> Microsoft,
-    <sup>2</sup> Institute of Automation, Chinese Academy of Sciences,
-    <sup>3</sup> School of Artificial Intelligence, University of Chinese Academy of Sciences,
+    <sup>1</sup> Institute of Automation, Chinese Academy of Sciences, Beijing, China,
+    <sup>2</sup> School of Artificial Intelligence, University of Chinese Academy of Sciences,
+    <sup>3</sup> Microsoft
+
+notes: |
+    \*Work is done during an internship at Microsoft.  
+    \**Corresponding author.
+
+contact: |
+    fujia2021@ia.ac.cn, yubo.chen@nlpr.ia.ac.cn  
+    \{xiaotingqin, fangkaiyang, wlu, juezhang, qlin\}@microsoft.com
 
 # paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 #  <span>^1^Microsoft,</span> <span>^2^Institute of Automation, Chinese Academy of Sciences,</span> <span>^3^School of Artificial Intelligence, University of Chinese Academy of Sciences,</span>
     # Microsoft
     # Institute of Automation, Chinese Academy of Sciences
     # School of Artificial Intelligence, University of Chinese Academy of Sciences
-# paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+paper: coming soon
 # video: https://www.youtube.com/results?search_query=turing+machine
-# code: https://github.com/topics/turing-machines
+code: coming soon
 # data: https://huggingface.co/docs/datasets
 ---
+
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
