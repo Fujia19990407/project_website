@@ -69,7 +69,7 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 
 ## Grid Search Results for ASQA with GPT-4
 
-<img src="/static/image/gt_asqa_4.png" alt="Grid Search Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
+<img src= "{{ site.baseurl }}/static/image/gt_asqa_4.png" alt="Grid Search Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
 
 *Figure 2: Grid search results for ASQA with GPT-4. Error bars represent the standard deviations of accuracy and reward values across all batches.*
 
