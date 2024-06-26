@@ -18,7 +18,7 @@ affiliations: |
 
 contact: |
     fujia2021@ia.ac.cn, yubo.chen@nlpr.ia.ac.cn   <br>
-    {xiaotingqin, fangkaiyang, wlu, juezhang, qlin}@microsoft.com
+    {xiaotingqin, fangkaiyang, wlu}@microsoft.com
 
 paper: |
     Coming soon
