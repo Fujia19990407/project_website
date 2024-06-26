@@ -5,20 +5,20 @@ permalink: /
 title: "AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation"
 
 authors: |
-    Jia Fu<sup>1, 2, 3</sup>*, Xiaoting Qin<sup>3</sup>, Fangkai Yang<sup>3</sup>, Lu Wang<sup>3</sup>, Jue Zhang<sup>3</sup>†, Qingwei Lin<sup>3</sup>, Yubo Chen<sup>1, 2</sup>, Dongmei Zhang<sup>3</sup>, Saravan Rajmohan<sup>3</sup>, Qi Zhang<sup>3</sup>
+    Jia Fu<sup>1, 2</sup>*, Xiaoting Qin<sup>3</sup>, Fangkai Yang<sup>3</sup>, Lu Wang<sup>3</sup>, Jue Zhang<sup>3</sup>†, Qingwei Lin<sup>3</sup>, Yubo Chen<sup>1, 2</sup>, Dongmei Zhang<sup>3</sup>, Saravan Rajmohan<sup>3</sup>, Qi Zhang<sup>3</sup>
 
 affiliations: |
     <sup>1</sup> Institute of Automation, Chinese Academy of Sciences, Beijing, China,<br>
     <sup>2</sup> School of Artificial Intelligence, University of Chinese Academy of Sciences,<br>
     <sup>3</sup> Microsoft
 
-# notes: |
-#     * Work is done during an internship at Microsoft.
-#     † Corresponding author.
+notes: |
+    * Work is done during an internship at Microsoft.
+    † Corresponding author.
 
 contact: |
     fujia2021@ia.ac.cn, yubo.chen@nlpr.ia.ac.cn   <br>
-    {xiaotingqin, fangkaiyang, wlu}@microsoft.com
+    {xiaotingqin, fangkaiyang, wlu, juezhang, qlin}@microsoft.com
 
 paper: |
     Coming soon
@@ -50,6 +50,13 @@ Recent advancements in Large Language Models have transformed ML/AI development,
     </div>
 </div>
 
+
+## Introduction Video
+
+<video width="100%" height="auto" controls>
+  <source src="{{ site.baseurl }}/static/video/AutoRAG.mp4" type="video/mp4">
+</video>
+
 ---
 
 <!-- > Note: This is an example of a Jekyll-based project website template: [Github link](https://github.com/shunzh/project_website).\
@@ -68,6 +75,7 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 
 *Figure 1: An example of two-level hierarchical MAB.*
 
+<!-- 
 ## Grid Search Results for ASQA with GPT-4
 
 <img src= "{{ site.baseurl }}/static/image/gt_asqa_4.png" alt="Grid Search Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
@@ -86,6 +94,7 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 <img src="{{ site.baseurl }}/static/image/ASQA_gpt4_3_param_alpha_1-NQ_gpt4_3_param_alpha_1_topk_5_interval_100.png" alt="Main Results" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
 
 *Figure 4: Evolution of Recall@5 in the optimization of $(\mathcal{K}, \mathcal{C}, \mathcal{E})$ for the GPT-4 case.*
+ -->
 
 <!-- ## Table: Comparison of Computable and Non-Computable Numbers
 
