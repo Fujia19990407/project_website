@@ -4,7 +4,6 @@ This repository jekyll-ized the source code for the [Nerfies website](https://ne
 You only need to change the content of [index.md](/index.md). 
 It's possible to only write in markdown, but you can also use HTML to achieve fancier effects.
 
-Here is an [example website](https://shunzh.github.io/project_website/).
 
 ## Test it locally
 
@@ -14,3 +13,8 @@ jekyll serve
 ```
 in this directory.
 Then you can see the website at `http://127.0.0.1:4000`.
+
+If you want to generate a static URL, please run
+```
+jekyll build
+```
