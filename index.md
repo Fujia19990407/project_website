@@ -21,7 +21,7 @@ contact: |
     {xiaotingqin, fangkaiyang, wlu, juezhang, qlin}@microsoft.com
 
 paper: |
-    Coming soon
+    https://arxiv.org/abs/2406.19251
 
 code: |
     Coming soon
@@ -117,12 +117,13 @@ Turing's paper laid the foundation for the theory of computation and had a profo
 
 ## Citation
 ```
-@article{,
-  title={AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation},
-  author={},
-  journal={},
-  volume={},
-  pages={},
-  year={}
+@misc{fu2024autoraghpautomaticonlinehyperparameter,
+      title={AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation}, 
+      author={Jia Fu and Xiaoting Qin and Fangkai Yang and Lu Wang and Jue Zhang and Qingwei Lin and Yubo Chen and Dongmei Zhang and Saravan Rajmohan and Qi Zhang},
+      year={2024},
+      eprint={2406.19251},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.19251}, 
 }
 ```
