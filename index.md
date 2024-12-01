@@ -21,7 +21,7 @@ contact: |
     {xiaotingqin, fangkaiyang, wlu, juezhang, qlin}@microsoft.com
 
 paper: |
-    https://arxiv.org/abs/2406.19251
+    https://aclanthology.org/2024.findings-emnlp.223/
 
 code: |
     Coming soon
@@ -81,7 +81,7 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 
 ## News Section
 
-Now our article has been accepted by EMNLP 2024 Findings. https://aclanthology.org/2024.findings-emnlp.223/
+Now our article has been accepted by EMNLP 2024 Findings.
 
 <!-- 
 ## Grid Search Results for ASQA with GPT-4
