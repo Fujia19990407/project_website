@@ -81,7 +81,7 @@ Recent advancements in Large Language Models have transformed ML/AI development,
 
 ## News Section
 
-Now our article has been accepted by EMNLP 2024 Findings.
+Now our article has been accepted by EMNLP 2024 Findings. https://aclanthology.org/2024.findings-emnlp.223/
 
 <!-- 
 ## Grid Search Results for ASQA with GPT-4
@@ -117,7 +117,7 @@ He used the concept of a universal Turing machine to prove that the set of compu
 ## Significance
 Turing's paper laid the foundation for the theory of computation and had a profound impact on the development of computer science. The Turing machine became a fundamental concept in theoretical computer science, serving as a theoretical model for studying the limits and capabilities of computation. Turing's work also influenced the development of programming languages, algorithms, and the design of modern computers. -->
 
-## Citation
+<!-- ## Citation
 ```
 @misc{fu2024autoraghpautomaticonlinehyperparameter,
       title={AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation}, 
@@ -127,5 +127,34 @@ Turing's paper laid the foundation for the theory of computation and had a profo
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.19251}, 
+}
+``` -->
+
+## Citation
+```
+@inproceedings{fu-etal-2024-autorag,
+    title = "{A}uto{RAG}-{HP}: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation",
+    author = "Fu, Jia  and
+      Qin, Xiaoting  and
+      Yang, Fangkai  and
+      Wang, Lu  and
+      Zhang, Jue  and
+      Lin, Qingwei  and
+      Chen, Yubo  and
+      Zhang, Dongmei  and
+      Rajmohan, Saravan  and
+      Zhang, Qi",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.223",
+    doi = "10.18653/v1/2024.findings-emnlp.223",
+    pages = "3875--3891",
+    abstract = "Recent advancements in Large Language Models have transformed ML/AI development, necessitating a reevaluation of AutoML principles for the Retrieval-Augmented Generation (RAG) systems. To address the challenges of hyper-parameter optimization and online adaptation in RAG, we propose the AutoRAG-HP framework, which formulates the hyper-parameter tuning as an online multi-armed bandit (MAB) problem and introduces a novel two-level Hierarchical MAB (Hier-MAB) method for efficient exploration of large search spaces. We conduct extensive experiments on tuning hyper-parameters, such as top-k retrieved documents, prompt compression ratio, and embedding methods, using the ALCE-ASQA and Natural Questions datasets. Our evaluation from jointly optimization all three hyper-parameters demonstrate that MAB-based online learning methods can achieve Recall@5 $\approx 0.8$ for scenarios with prominent gradients in search space, using only {\textasciitilde}20{\%} of the LLM API calls required by the Grid Search approach. Additionally, the proposed Hier-MAB approach outperforms other baselines in more challenging optimization scenarios. The code will be made available at https://aka.ms/autorag.",
 }
 ```
